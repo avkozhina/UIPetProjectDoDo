@@ -31,7 +31,7 @@ public class PlacingAnOrderTest extends BaseTest {
         addPizzaPopupStep.addPizzaToCard();
         addressSelectionPopupSteps.selectPickUpFromPizzeria();
         addressSelectionPopupSteps.confirmAddressPickUp();
-        productMenuSteps.chooseProduct("Мини-пиццы","Мини Пеперони");
+        productMenuSteps.chooseProduct("Мини-пиццы","Мини Пепперони");
         productMenuSteps.chooseProduct("Кофе","Кофе Ореховый латте");
         productMenuSteps.chooseProduct("Десерты","Слоеные палочки с ананасами и брусникой");
         productMenuSteps.goToCard();
